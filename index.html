@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="nav-bar">
+        
+        
+        <span id="add">
+            <button id="addbtn">
+              Create Project
+            </button>
+          
+          
+        </span>
+      </div>
+      <div id="display">
+        <div id="display-text">
+          <h1>Project Management Dashboard</h1>
+          
+          <!-- <button id="shop-now">Shop Now</button> -->
+        </div>
+        <form id="form" style="display:none;">
+            <h3>Create a Project</h3>
+            <input type="text" placeholder="Input project name" id="projectname">
+            <input type="text" placeholder="Input employee name" id="employeename">
+            <input type="text" placeholder="Input employee email" id="email">
+            <input type="text" placeholder="Input phone number" id="phone">
+            <input type="text" placeholder="Input project budget" id="projectbudget">
+            <input type="text" placeholder="Input project resources" id="projectresources">
+            
+            
+          
+            <input placeholder="start-date" class="date" id="startdate" name="start-date" type="date" min="2024-01-01" max="2024-12-31" required>
+            
+            <input placeholder="end-date" class="date"  id="enddate" name="end-date" type="date" min="2024-01-01" max="2024-12-31" required>
+
+            <input type="submit" value="Create Project" id="createprojectbtn">
+        </form>
+
+      </div>
+      <div id="best-seller">
+        <h2>All Boards</h2>
+      </div>
+      <div class="general">
+        <!-- <div class="products0">
+          <img
+            id="image"
+            src="https://m.media-amazon.com/images/I/61z4WaYvARL.jpg"
+            alt=""
+          />
+          <p id="name">Hydro Grim Primer</p>
+          <p id="descr">
+            Hydro Grim Primer is a product by Milk Makeup that claims to hydrate
+            and grip makeup for up to 12 hours.
+          </p>
+          <button id="price">
+            <p>Add To Bag</p>
+            <p id="money">$49.99</p>
+          </button> -->
+        </div>
+
+
+      </div>
+    </div>
+    <script src="./dist/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

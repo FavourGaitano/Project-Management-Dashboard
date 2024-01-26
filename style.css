@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#nav-bar{
+    /* border:2px solid aqua; */
+    max-width:100vw;
+    height:7.5vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    font-size:15px;
+    font-weight: 600;
+    padding-top:2.5%;
+    /* padding-bottom:2.5%; */
+
+}
+
+#shop{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around; 
+    gap:60px;
+    margin-left:15%;
+    margin-right:15%;
+    
+}
+#add{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around; 
+    
+}
+#addbtn{
+    background-color:white;
+    border:none;
+    font-size:15px;
+    font-weight: 600;
+    padding-inline:1%;
+    padding-top:0;
+    /* text-align:center; */
+    height:4vh;
+    width:12vw;
+    margin-bottom:35%;
+    margin-left:2%;
+   
+}
+#addbtn:hover{
+    background-color:bisque;
+    border-color:bisque;
+
+}
+#icon0{
+    padding-left:10px;
+    font-weight: 900;
+    margin-top:5%;
+}
+#display{
+    max-width:100vw;
+    height:45vh;
+    display: flex;
+    flex-wrap:wrap; 
+    border-radius:100px;
+    /* border:2px solid rgb(156, 15, 97);  */
+}
+#display-text{
+    height:25vh;
+    width:100%;
+    /* padding-inline: 3.5%; */
+    /* padding-right:1.5%; */
+    padding-left:6%;
+    padding-top:8%;
+    /* padding-bottom:4%; */
+    background-color: #c0ce90
+}
+#display-text > h1{
+    /* font-size: 50px; */
+    font-weight:bolder;
+    Width:80%;
+    padding-bottom:3.5%;
+    
+}
+#display-text > p{
+    font-size:15px;
+    Width:75%;
+    padding-bottom:4.5%;
+}
+#shop-now{
+    width:22%;
+    height:10%;
+    font-size:13px;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 3px;
+}
+#images{
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+
+#best-seller{
+    height:6.5vh;
+    text-align: start;
+    /* border:2px solid rgb(156, 15, 97);  */
+    /* padding-top:2%; */
+    padding-bottom:2%;
+    font-size:15px;
+    padding-left:6%;
+}
+#form{
+    display: flex;
+    flex-direction:column;
+    gap:6%;
+    /* flex-wrap:wrap;  */
+    justify-content: left;
+    /* align-items: center;  */
+    height:95vh;
+    width:80vh;
+    /* border:2px solid rgb(156, 15, 97);  */
+    margin-inline:25%;
+    margin-top:8%;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-inline:5%;
+    Padding-top:5%; 
+    background-color:#d7f3a2;
+    /* padding-bottom:15%; */
+    
+}
+#form>h3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom:5%;
+    /* color:white; */
+}
+.btn{
+    text-align: center;
+    width:50%;
+    height:9%;
+    margin-top:8%;
+    margin-left:25%;
+    background-color:#c0ce90;
+    border:none;
+    border-radius:5px;
+}
+.forminput{
+    width:75%;
+    height:148%;
+    border:none;
+    padding-left:2%;
+    border-radius:5px;
+}
+.inputs{
+    font-weight:600;
+}
+#image{
+    width:250px;
+    /* border:2px solid rgb(17, 80, 161);  */
+    background-color: rgb(233, 229, 229);
+}
+#general{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap:10px;
+
+}
+.products0{
+    /* border:2px solid rgb(156, 15, 97);  */
+    margin-left:6%;
+    width:16%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /* background-color: rgb(235, 235, 235); */
+    padding:2%;
+}
+.products0:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius:8px;
+}
+#name{
+    /* font-size:15px; */
+    font-weight:700;
+    padding-bottom:3%;
+    padding-top: 3%;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+#descr{
+    font-size:14px;
+    text-align: center;
+    padding-bottom:9%;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-left:2%;
+}
+#price{
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:13px;
+    background-color: white;
+    font-weight:700;
+    border-radius: 5px;
+}
+#money{
+    font-weight:700;
+    font-size:18px;
+}
+.date{
+    padding:1.5vh;
+}
